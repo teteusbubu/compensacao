@@ -1,0 +1,48 @@
+body{
+    background-image: url(./img/FyHC0xnXsAETXU-.jpg);
+    background-size: 100%;
+    background-position: 1px;
+    
+}
+
+.streamdeck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 40px ;
+  }
+  
+  .button {
+    background-image: url(./img/luan-santana-se-apresenta-na-festa-do-peao-de-barretos.jpg);
+    width: 100px;
+    height: 100px;
+    background-color: rgba(226, 242, 0, 0.712);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #pauseButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(124, 0, 128);
+} 
+
+#logo{
+    padding-left: 45px;
+}
+
+#album{
+    padding-left: 0px;
+}
+
+#capa{
+    padding-left: 30px;
+}
+
+
+
